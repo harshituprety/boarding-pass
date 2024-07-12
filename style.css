@@ -1,0 +1,656 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+
+}
+
+.flight-card {
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    border-radius: 35px;
+    margin: 20px;
+    background-color: #FFFFFF;
+}
+
+.flight-card--header1 {
+    position: absolute;
+    width: 1200px;
+    height: 130px;
+    top: 0px;
+    border-radius: 35px;
+    background-color: #0C30A6;
+
+}
+
+.img-plane {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 20px;
+    left: 20px;
+}
+
+.national-airlines {
+    padding-top: 25px;
+    font-size: 44px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    color: white;
+    left: 10%;
+    top: -5px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.boarding-pass {
+    padding-top: 25px;
+    font-size: 44px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    color: white;
+    left: 65%;
+    top: -5px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.passenger {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 10%;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.firstclass {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 75%;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.flight-card--header2 {
+    position: absolute;
+    width: 400px;
+    height: 130px;
+    top: 0px;
+    left: 100%;
+    border-radius: 35px;
+    background-color: #0C30A6;
+
+
+}
+
+.national-airlines2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    color: white;
+    left: 25%;
+    top: 15px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.firstclass2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+    color: white;
+    left: 35%;
+    top: 40px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.flight-card--footer1 {
+    position: absolute;
+    padding-top: 35px;
+    width: 1200px;
+    height: 100px;
+    top: 80%;
+    border-radius: 35px;
+    background-color: #0059CE
+}
+
+.flight-card--info1 {
+    position: absolute;
+    width: 1200px;
+    height: 350px;
+    top: 20%;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+}
+
+.flight-card--footer2 {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    top: 80%;
+    left: 100%;
+    border-radius: 35px;
+    background-color: #0059CE
+}
+
+.flight-card--info2 {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    left: 99.7%;
+    top: 0px;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+    border-left-style: dashed;
+    border-left-color: #D7D7D7;
+}
+
+.img-bardcode1 {
+    transform: rotate(90deg);
+    position: absolute;
+    height: 31%;
+    top: 35%;
+    left: -115px;
+}
+
+.title1 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+    left: 12%;
+    top: 10px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.answer1 {
+    font-size: 17px;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    left: 140px;
+    top: 25px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.title2 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+    left: 12%;
+    top: 45px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.answer2 {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    left: 140px;
+    top: 60px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.title3 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+    left: 12.5%;
+    top: 150px;
+    letter-spacing: 1.5px;
+    word-spacing: 100px;
+    line-height: 0px;
+}
+
+.answer3 {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    left: 140px;
+    top: 167px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+    word-spacing: 54px;
+}
+
+.answer4 {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    left: 300px;
+    top: 167px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+
+}
+
+.answer5 {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    left: 438px;
+    top: 167px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.title4 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+    left: 12.5%;
+    top: 200px;
+    letter-spacing: 1.5px;
+    word-spacing: 80px;
+    line-height: 0px;
+}
+
+.title5 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+    left: 350px;
+    top: 200px;
+    letter-spacing: 1.5px;
+    word-spacing: 65px;
+    line-height: 0px;
+}
+
+.answer6 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    left: 13.2%;
+    top: 216px;
+    letter-spacing: 1.5px;
+    word-spacing: 107px;
+    line-height: 0px;
+}
+
+.title6 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+    left: 12.5%;
+    top: 278px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.answer7 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    left: 140px;
+    top: 295px;
+    letter-spacing: 1.5px;
+    word-spacing: 80px;
+    line-height: 0px;
+}
+
+.footer--title {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+    padding-top: 10px;
+    color: white;
+    top: 55px;
+    left: 20px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.footer--title2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    padding-top: 10px;
+    font-weight: 400;
+    position: absolute;
+    color: white;
+    top: 55px;
+    left: 500px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.flight-card-info3 {
+
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    left: 940px;
+
+}
+
+.title7 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+
+    top: 5px;
+    left: 10px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.answer8 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    text-transform: uppercase;
+
+    top: 25px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.title8 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+
+    top: 40px;
+    left: 10px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.answer9 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    text-transform: uppercase;
+
+    top: 58px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.title9 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+
+    top: 75px;
+    left: 10px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.answer10 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    text-transform: uppercase;
+
+    top: 90px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.flight-card--info2--title1 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.flight-card--info2--answer1 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    text-transform: uppercase;
+    top: 30px;
+    left: 10px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.flight-card--info2--title2 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.flight-card--info2--answer2 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    text-transform: uppercase;
+    top: 70px;
+    left: 10px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.flight-card--info2--title3 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+    top: 90px;
+    left: 15px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.flight-card--info2--answer3 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    text-transform: uppercase;
+    top: 110px;
+    left: 10px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.flight-card--info2--title4 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+    top: 140px;
+    left: 15px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+    word-spacing: 110px;
+}
+
+.flight-card--info2--answer4 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    text-transform: uppercase;
+    top: 160px;
+    left: 10px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.flight-card--info2--answer5 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    text-transform: uppercase;
+    top: 160px;
+    left: 150px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.flight-card--info2--answer6 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    text-transform: uppercase;
+    top: 160px;
+    left: 325px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.flight-card--info2--title5 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+    top: 180px;
+    left: 15px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+
+}
+
+.flight-card--info2--title6 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+    top: 180px;
+    left: 145px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.flight-card--info2--title7 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    position: absolute;
+    top: 180px;
+    left: 330px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.flight-card--info2--answer7 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    top: 200px;
+    left: 15px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+    word-spacing: 130px;
+}
+
+.flight-card--info2--answer8 {
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 600;
+    position: absolute;
+    top: 200px;
+    left: 332px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
+
+.img-bardcode2 {
+    position: absolute;
+    height: 30%;
+    top: 230px;
+    left: 30px;
+}
+
+.flight-card--footer2-title1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 400;
+    padding-top: 10px;
+    position: absolute;
+    color: white;
+    top: 55px;
+    left: 150px;
+    letter-spacing: 1.5px;
+    line-height: 0px;
+}
